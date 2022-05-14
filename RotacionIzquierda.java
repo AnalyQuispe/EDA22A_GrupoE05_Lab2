@@ -17,9 +17,9 @@ public class RotacionIzquierda{
     if(D<A.length){
       for(int i=0;i<=D;i++)
         Aiz[i] = A[D+i];
-      
+        
+      int cont=0;
       for(int j=posD;j<A.length;j++){
-        int cont=0;
         Aiz[j] = A[cont];
         cont++;
       }
