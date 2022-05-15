@@ -30,5 +30,11 @@ public class List<T> {
 		}
 		contador++;
 	}
+
+	public void add(int indice, T elemento){
+
+		Node<T> nodo = new Nodo<N>(elemento);
+		Node<T> puntero = root;
+	}
 	
 }
