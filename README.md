@@ -81,7 +81,7 @@ ls<div align="center">
           <ul>
           <li>III. Triangulo Recursivo (4pts)
              <ul>
-	            <li><img src="img/Triangulo_recursivo.png?raw=true" alt="image_1" style witdh="250"; height="250"/></li>
+	            <li><img src="img/Triangulo_recursivo.png?raw=true" alt="image_1" style witdh="150"; height="150"/></li>
                 <li>Al condicionar que base sea mayor a cero logramos la recursión se detenga cuando cumpla las vueltas requeridas para imprimir el triangulo, asi mismo en cada recursión aumentamos un asterisco a la cadena para que asi vaya incrementando la cadena en cada recursión.
               </ul>
            </li>
