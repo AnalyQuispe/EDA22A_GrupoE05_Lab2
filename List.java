@@ -38,5 +38,11 @@ public class List<T> {
 
 		for (int i = 0; i < indice - 1; i++)
 			puntero = puntero.getNextNode();
-	
-}
+		
+		Node<T> auxiliar = puntero.getNextNode();
+		puntero.setNextNode(nodo);
+		nodo.setNextNode(auxiliar);
+
+		contador++;
+	}
+}	
