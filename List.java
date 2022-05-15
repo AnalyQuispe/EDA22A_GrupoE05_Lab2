@@ -3,6 +3,7 @@ package Lab_02;
 public class List<T> {
 	
 	private Node<T> root;
+	private int contador=0;
 	
 	public boolean isEmpty() {
 		return this.root == null;
@@ -12,23 +13,33 @@ public class List<T> {
 		this.root = null;
 	}
 	
-	public boolean add(T e){
-		if (isEmpty())
-			this.root = new Node<T>(e);
-		
-		else {
-			add(this.root.getNextNode(), e);
+	public List<T> subList(int fromIndex, int toIndex){
+		List<T> subList = new List<T>();
+		Node<T> aux = this.root;
+		for (int i = 1; i< toIndex; i++) {
+			if (i >= fromIndex)
+				subList.add(aux);
+			aux = aux.getNextNode();
 		}
-		return true;
+		return subList;
 	}
 	
-	private void add(Node<T> tmp, T e) {
-		Node<T> aux = tmp.getNextNode();
-			
-			if(aux == null)
-				tmp.setNextNode(new Node<T>(e));
-			else {
-				add(tmp.getNextNode(), e);
+	public int size () {
+		return contador;
+	}
+	
+	public <T extends Comparable> void remove(T e) {
+		Node <T> raiz = (Node<T>) this.root;
+		Node <T> aux = (Node<T>) this.root;
+		boolean indicador = true;
+		while(indicador) {
+			if (raiz.getDato().compareTo(e) == 0)
+				this.root = this.root.getNextNode();
+			else if (aux.getNextNode().getDato().compareTo(e) == 0) {
+				aux.setNextNode(aux.getNextNode());
+				indicador = false;
 			}
+			aux = aux.getNextNode();
+		}
 	}
 }
