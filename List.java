@@ -31,7 +31,7 @@ public class List<T> {
 
 	public void add(int indice, T elemento){
 
-		if (root == null || indice < 0 || indice > size - 1)
+		if (root == null || indice < 0 || indice > contador - 1)
 			System.out.println("Indice no encontrado");
 		
 		else if (indice == 0){
@@ -45,7 +45,7 @@ public class List<T> {
 			add(elemento);
 		
 		else {
-			Node<T> nodo = new Node<N>(elemento);
+			Node<T> nodo = new Node<T>(elemento);
 			Node<T> puntero = root;
 
 			for (int i = 0; i < indice - 1; i++)
@@ -61,7 +61,7 @@ public class List<T> {
 
 	public Node<T> get(int indice){ //recibe el indice para extraer el elemento
 
-		Node<N> puntero = root;
+		Node<T> puntero = root;
 		
 		if (root == null || indice < 0 || indice > contador - 1)
 			puntero = null;
@@ -80,12 +80,12 @@ public class List<T> {
 		
 		else{
 
-			Node<N> puntero = root;
+			Node<T> puntero = root;
 
 			fot (int i = 0; i < indice - 1; i++)
 				puntero = puntero.getNextNode();
 
-			Node<N> auxiliar = puntero.getNextNode().getNextNode();
+			Node<T> auxiliar = puntero.getNextNode().getNextNode();
 			puntero.getNextNode().setNextNode(null);
 
 			puntero.setNextNode(auxiliar);
