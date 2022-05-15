@@ -61,13 +61,17 @@ public class List<T> {
 		}
 	}
 
-	public Node<T> get(int indice){
+	public Node<T> get(int indice){ //recibe el indice para extraer el elemento
 
 		Node<N> puntero = root;
 		
-		for (int i = 0; i < indice; i++)
-			puntero = puntero.getNextNode();
-
+		if (root == null || indice < 0 || indice > size - 1)
+			puntero = null;
+		
+		else{
+			for (int i = 0; i < indice; i++)
+				puntero = puntero.getNextNode();
+		}
 		return puntero;
 	}
 }	
