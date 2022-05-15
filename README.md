@@ -107,7 +107,7 @@ ls<div align="center">
           </li>
         <li>¿Que beneficios y oportunidades ofrecen las clases genéricas en Java?
             <ul>
-                <li>Respuesta</li> 
+                <li>Nos permite reutilizar un codigo para diferentes tipos de parametros y no tener que hacer algun tipo de casting para que coincida, nos muestra si existe un error a la hora de compilar y no al momento que el programa funciona</li> 
           </ul>
         </li>
          </ul>
