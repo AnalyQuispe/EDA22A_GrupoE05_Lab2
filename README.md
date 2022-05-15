@@ -66,7 +66,8 @@
           <ul>
           <li>I. Invertir una matriz de enteros (2pts)
              <ul>
-	     <li><img src="z_imag/Home.jpg?raw=true" alt="image_1" style witdh="250"; height="250"/></li>
+	     <li><img src="img/invertido.jpg?raw=true" alt="image_1" style witdh="150"; height="150"/></li>
+ 	     <li>Se toma el primer y ultimo elemento para intercambiarlo,en un bucle guardando el primer valor en un auxiliar luego reemplazar el valor del primer valor con el ultimo y reemplazar el ultimo valor con el auxiliar.</li>.
 	    </ul>
            </li>
           </ul>
@@ -122,7 +123,7 @@
           </li>
         <li>¿Que beneficios y oportunidades ofrecen las clases genéricas en Java?
             <ul>
-                <li>Respuesta</li> 
+                 <li>Nos permite reutilizar un codigo para diferentes tipos de parametros y no tener que hacer algun tipo de casting para que coincida, nos muestra si existe un error a la hora de compilar y no al momento que el programa funciona</li>  
           </ul>
         </li>
          </ul>
