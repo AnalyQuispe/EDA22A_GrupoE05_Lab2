@@ -3,7 +3,8 @@ package Lab_02;
 public class List<T> {
 	
 	private Node<T> root;
-	
+	private int contador = 0;
+
 	public boolean isEmpty() {
 		return this.root == null;
 	}
@@ -11,24 +12,22 @@ public class List<T> {
 	public void clear() {
 		this.root = null;
 	}
-	
-	public boolean add(T e){
-		if (isEmpty())
-			this.root = new Node<T>(e);
-		
-		else {
-			add(this.root.getNextNode(), e);
+
+	public void add(T elemento){ //para añadir al final
+
+		Node<T> nodo = new Node<T>(elemento);
+
+		if (root == null)
+			root = nodo;
+		else{
+
+			Node<T> puntero = root;
+
+			while(puntero.getNextNode() != null)
+				puntero = puntero.getNextNode();
+
+			puntero.setNextNode(nodo);
 		}
-		return true;
 	}
 	
-	private void add(Node<T> tmp, T e) {
-		Node<T> aux = tmp.getNextNode();
-			
-			if(aux == null)
-				tmp.setNextNode(new Node<T>(e));
-			else {
-				add(tmp.getNextNode(), e);
-			}
-	}
 }
