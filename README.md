@@ -40,7 +40,7 @@ ls<div align="center">
 <tr><td colspan="4">Integrantes:
         <ul>
             <li><h5>Escobar Atamari, Diego Gabriel</h5></li>
-            <li><h5>Flores Sucupaca, Ervin Eleazar </h5></li>
+            <li><h5>Flores Sucapuca, Ervin Eleazar </h5></li>
             <li><h5>Machicao Quispe, Gabriel Steven</h5></li>
             <li><h5>Moroccoire Pacompia Anthony Marcos</h5></li>
             <li><h5>Quispe Bejar, Garlet Analy</h5></li>
