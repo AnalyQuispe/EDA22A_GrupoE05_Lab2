@@ -32,10 +32,10 @@ ls<div align="center">
 <tr><td>ASIGNATURA:</td><td colspan="5">Estructura de Datos y Algoritmos</td></tr>
 <tr><td>TÍTULO DE LA PRÁCTICA:</td><td colspan="5">Revisión de elementos de programación (Parte I)</td></tr>
 <tr>
-<td>NÚMERO DE PRÁCTICA:</td><td>01</td><td>AÑO LECTIVO:</td><td>2022 A</td><td>NRO. SEMESTRE:</td><td>III</td>
+<td>NÚMERO DE PRÁCTICA:</td><td>02</td><td>AÑO LECTIVO:</td><td>2022 A</td><td>NRO. SEMESTRE:</td><td>III</td>
 </tr>
 <tr>
-<td>FECHA DE PRESENTACIÓN:</td><td>10-May-2022</td><td>HORA DE PRESENTACIÓN:</td><td colspan="3">23:55</td>
+<td>FECHA DE PRESENTACIÓN:</td><td>15-May-2022</td><td>HORA DE PRESENTACIÓN:</td><td colspan="3">23:55</td>
 </tr>
 <tr><td colspan="4">Integrantes:
         <ul>
