@@ -41,9 +41,9 @@ ls<div align="center">
         <ul>
             <li><h5>Escobar Atamari, Diego Gabriel</h5></li>
             <li><h5>Flores Sucupaca, Ervin Eleazar </h5></li>
+            <li><h5>Machicao Quispe, Gabriel Steven</h5></li>
             <li><h5>Moroccoire Pacompia Anthony Marcos</h5></li>
             <li><h5>Quispe Bejar, Garlet Analy</h5></li>
-            <li><h5>Machicao Quispe, Gabriel Steven</h5></li>
         </ul>
     </td>
     <td colspan="2">Nota:</td>
@@ -67,16 +67,14 @@ ls<div align="center">
           <li>I. Invertir una matriz de enteros (2pts)
              <ul>
 	     <li><img src="z_imag/Home.jpg?raw=true" alt="image_1" style witdh="250"; height="250"/></li>
-	    
-              </ul>
+	    </ul>
            </li>
           </ul>
           <ul>
           <li>II. Rotación a la izquierda (3pts)
              <ul>
 	     <li><img src="z_imag/Comments.jpg?raw=true" alt="image_1" style witdh="250"; height="250"/></li>
-	    
-              </ul>
+	      </ul>
            </li>
           </ul>
           <ul>
