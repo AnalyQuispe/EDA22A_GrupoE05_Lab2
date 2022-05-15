@@ -123,13 +123,13 @@
           </li>
         <li>¿Que beneficios y oportunidades ofrecen las clases genéricas en Java?
             <ul>
-                 <li>Nos permite reutilizar un codigo para diferentes tipos de parametros y no tener que hacer algun tipo de casting para que coincida, nos muestra si existe un error a la hora de compilar y no al momento que el programa funciona</li>  
+                 <li>Nos permite reutilizar un codigo para diferentes tipos de parametros y no tener que hacer algun tipo de casting para que coincida, nos muestra si existe un error a la hora de compilar y no al momento que el programa funciona.</li>  
           </ul>
         </li>
          </ul>
         </td></tr>
         <tr><td colspan="6">III. CONCLUSIONES
-           <li>conclusion </li>
+           <li>Las clases genéricas nos permite la reutilizacion del código e implementar nuestros propios algoritmos genéricos para diferentes casos.</li>
 </td></tr>
  </tbody>
 </table>
