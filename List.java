@@ -1,5 +1,3 @@
-package Lab_02;
-
 public class List<T> {
 	
 	private Node<T> root;
