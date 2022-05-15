@@ -37,13 +37,13 @@ public class List<T> {
 			System.out.println("Indice no encontrado");
 		
 		else if (indice == 0){
-			Node<T> nodo = new Nodo<T>(elemento);
+			Node<T> nodo = new Node<T>(elemento);
 			nodo.setNextNode(root);
 			root = nodo;
 			contador++;
 		}
 		
-		else if (indice == size - 1)
+		else if (indice == contador - 1)
 			add(elemento);
 		
 		else {
@@ -65,7 +65,7 @@ public class List<T> {
 
 		Node<N> puntero = root;
 		
-		if (root == null || indice < 0 || indice > size - 1)
+		if (root == null || indice < 0 || indice > contador - 1)
 			puntero = null;
 		
 		else{
@@ -77,16 +77,22 @@ public class List<T> {
 
 	public void remove(int indice){
 
-		Node<N> puntero = root;
+		if (root == null || indice < 0 || indice > contador	- 1)
+			System.out.println("La lista esta vacia o no existe el indice");
+		
+		else{
 
-		fot (int i = 0; i < indice - 1; i++)
-			puntero = puntero.getNextNode();
+			Node<N> puntero = root;
 
-		Nodo<N> auxiliar = puntero.getNextNode().getNextNode();
-		puntero.getNextNode().setNextNode(null);
+			fot (int i = 0; i < indice - 1; i++)
+				puntero = puntero.getNextNode();
 
-		puntero.setNextNode(auxiliar);
+			Node<N> auxiliar = puntero.getNextNode().getNextNode();
+			puntero.getNextNode().setNextNode(null);
 
-		contador--;
+			puntero.setNextNode(auxiliar);
+
+			contador--;
+		}
 	}
 }	
