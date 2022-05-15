@@ -74,4 +74,14 @@ public class List<T> {
 		}
 		return puntero;
 	}
+
+	public void remove(int indice){
+
+		Node<N> puntero = root;
+
+		fot (int i = 0; i < indice - 1; i++)
+			puntero = puntero.getNextNode();
+
+		
+	}
 }	
