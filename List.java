@@ -33,8 +33,10 @@ public class List<T> {
 
 	public void add(int indice, T elemento){
 
-		Node<T> nodo = new Nodo<N>(elemento);
+		Node<T> nodo = new Node<N>(elemento);
 		Node<T> puntero = root;
-	}
+
+		for (int i = 0; i < indice - 1; i++)
+			puntero = puntero.getNextNode();
 	
 }
