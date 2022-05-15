@@ -28,6 +28,7 @@ public class List<T> {
 
 			puntero.setNextNode(nodo);
 		}
+		contador++;
 	}
 	
 }
