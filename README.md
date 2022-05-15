@@ -32,10 +32,10 @@ ls<div align="center">
 <tr><td>ASIGNATURA:</td><td colspan="5">Estructura de Datos y Algoritmos</td></tr>
 <tr><td>TÍTULO DE LA PRÁCTICA:</td><td colspan="5">Revisión de elementos de programación (Parte I)</td></tr>
 <tr>
-<td>NÚMERO DE PRÁCTICA:</td><td>01</td><td>AÑO LECTIVO:</td><td>2022 A</td><td>NRO. SEMESTRE:</td><td>III</td>
+<td>NÚMERO DE PRÁCTICA:</td><td>02</td><td>AÑO LECTIVO:</td><td>2022 A</td><td>NRO. SEMESTRE:</td><td>III</td>
 </tr>
 <tr>
-<td>FECHA DE PRESENTACIÓN:</td><td>10-May-2022</td><td>HORA DE PRESENTACIÓN:</td><td colspan="3">23:55</td>
+<td>FECHA DE PRESENTACIÓN:</td><td>15-May-2022</td><td>HORA DE PRESENTACIÓN:</td><td colspan="3">23:55</td>
 </tr>
 <tr><td colspan="4">Integrantes:
         <ul>
@@ -66,21 +66,22 @@ ls<div align="center">
           <ul>
           <li>I. Invertir una matriz de enteros (2pts)
              <ul>
-	     <li><img src="z_imag/Home.jpg?raw=true" alt="image_1" style witdh="250"; height="250"/></li>
+	     <li><img src="img/invertido.jpg?raw=true" alt="image_1" style witdh="150"; height="150"/></li>
+ 	     <li>Se toma el primer y ultimo elemento para intercambiarlo,en un bucle guardando el primer valor en un auxiliar luego reemplazar el valor del primer valor con el ultimo y reemplazar el ultimo valor con el auxiliar.</li>.
 	    </ul>
            </li>
           </ul>
           <ul>
           <li>II. Rotación a la izquierda (3pts)
              <ul>
-	     <li><img src="z_imag/Comments.jpg?raw=true" alt="image_1" style witdh="250"; height="250"/></li>
+	     <li><img src="z_imag/Comments.jpg?raw=true" alt="image_1" style witdh="150"; height="150"/></li>
 	      </ul>
            </li>
           </ul>
           <ul>
           <li>III. Triangulo Recursivo (4pts)
              <ul>
-	            <li><img src="img/Triangulo_recursivo.png?raw=true" alt="image_1" style witdh="250"; height="250"/></li>
+	            <li><img src="img/Triangulo_recursivo.png?raw=true" alt="image_1" style witdh="150"; height="150"/></li>
                 <li>Al condicionar que base sea mayor a cero logramos la recursión se detenga cuando cumpla las vueltas requeridas para imprimir el triangulo, asi mismo en cada recursión aumentamos un asterisco a la cadena para que asi vaya incrementando la cadena en cada recursión.
               </ul>
            </li>
@@ -106,7 +107,7 @@ ls<div align="center">
           </li>
         <li>¿Que beneficios y oportunidades ofrecen las clases genéricas en Java?
             <ul>
-                <li>Respuesta</li> 
+                <li>Nos permite reutilizar un codigo para diferentes tipos de parametros y no tener que hacer algun tipo de casting para que coincida, nos muestra si existe un error a la hora de compilar y no al momento que el programa funciona</li> 
           </ul>
         </li>
          </ul>
@@ -141,4 +142,3 @@ ls<div align="center">
         </tr>
     </tbody>
 </table>
-
