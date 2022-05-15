@@ -33,16 +33,31 @@ public class List<T> {
 
 	public void add(int indice, T elemento){
 
-		Node<T> nodo = new Node<N>(elemento);
-		Node<T> puntero = root;
-
-		for (int i = 0; i < indice - 1; i++)
-			puntero = puntero.getNextNode();
+		if (root == null || indice < 0 || indice > size - 1)
+			System.out.println("Indice no encontrado");
 		
-		Node<T> auxiliar = puntero.getNextNode();
-		puntero.setNextNode(nodo);
-		nodo.setNextNode(auxiliar);
+		else if (indice == 0){
+			Node<T> nodo = new Nodo<T>(elemento);
+			nodo.setNextNode(root);
+			root = nodo;
+			contador++;
+		}
+		
+		else if (indice == size - 1)
+			add(elemento);
+		
+		else {
+			Node<T> nodo = new Node<N>(elemento);
+			Node<T> puntero = root;
 
-		contador++;
+			for (int i = 0; i < indice - 1; i++)
+				puntero = puntero.getNextNode();
+		
+			Node<T> auxiliar = puntero.getNextNode();
+			puntero.setNextNode(nodo);
+			nodo.setNextNode(auxiliar);
+
+			contador++;
+		}
 	}
 }	
