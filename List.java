@@ -60,4 +60,14 @@ public class List<T> {
 			contador++;
 		}
 	}
+
+	public Node<T> get(int indice){
+
+		Node<N> puntero = root;
+		
+		for (int i = 0; i < indice; i++)
+			puntero = puntero.getNextNode();
+
+		return puntero;
+	}
 }	
