@@ -106,13 +106,13 @@ ls<div align="center">
           </li>
         <li>¿Que beneficios y oportunidades ofrecen las clases genéricas en Java?
             <ul>
-                <li>Respuesta</li> #Respuesta
+                <li>Respuesta</li> 
           </ul>
         </li>
          </ul>
         </td></tr>
         <tr><td colspan="6">III. CONCLUSIONES
-           <li>GitHub es una herramienta que te da acceso a la gestion del codigo asi como ayuda a otras personas a ver tu código y aprender de el, teniendo esa sensacion de trabajo en codigo abierto ya que todo es visible y manipulable. </li>
+           <li>conclusion </li>
 </td></tr>
  </tbody>
 </table>
@@ -136,6 +136,7 @@ ls<div align="center">
                 <li>https://git-scm.com/book/es/v2</li>
                 <li>https://guides.github.com/</li>
                 <li>https://www.w3schools.com/java/default.asp</li>
+                <li>https://docs.oracle.com/javase/7/docs/api/java/util/List.html</li>
             </ul></td>
         </tr>
     </tbody>
