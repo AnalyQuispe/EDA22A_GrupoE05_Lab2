@@ -1,9 +1,8 @@
-package Lab_02;
-
 public class List<T> {
 	
 	private Node<T> root;
-	
+	private int contador = 0;
+
 	public boolean isEmpty() {
 		return this.root == null;
 	}
@@ -11,7 +10,7 @@ public class List<T> {
 	public void clear() {
 		this.root = null;
 	}
-	
+
 	public void add(T elemento){ //para añadir al final
 
 		Node<T> nodo = new Node<T>(elemento);
@@ -29,7 +28,6 @@ public class List<T> {
 		}
 		contador++;
 	}
-	
 
 	public void add(int indice, T elemento){
 
@@ -60,8 +58,7 @@ public class List<T> {
 			contador++;
 		}
 	}
-	
-	
+
 	public Node<T> get(int indice){ //recibe el indice para extraer el elemento
 
 		Node<T> puntero = root;
@@ -95,6 +92,14 @@ public class List<T> {
 
 			contador--;
 		}
+	}
+	
+	public boolean isEmpty() {
+		return this.root == null;
+	}
+	
+	public void clear() {
+		this.root = null;
 	}
 	
 	public List<T> subList(int fromIndex, int toIndex){
