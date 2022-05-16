@@ -94,14 +94,6 @@ public class List<T> {
 		}
 	}
 	
-	public boolean isEmpty() {
-		return this.root == null;
-	}
-	
-	public void clear() {
-		this.root = null;
-	}
-	
 	public List<T> subList(int fromIndex, int toIndex){
 		List<T> subList = new List<T>();
 		Node<T> aux = this.root;
