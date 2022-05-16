@@ -11,6 +11,7 @@ public class List<T> {
 	public void clear() {
 		this.root = null;
 	}
+	
 	public void add(T elemento){ //para añadir al final
 
 		Node<T> nodo = new Node<T>(elemento);
@@ -29,6 +30,7 @@ public class List<T> {
 		contador++;
 	}
 	
+
 	public void add(int indice, T elemento){
 
 		if (root == null || indice < 0 || indice > contador - 1)
@@ -58,6 +60,7 @@ public class List<T> {
 			contador++;
 		}
 	}
+	
 	
 	public Node<T> get(int indice){ //recibe el indice para extraer el elemento
 
