@@ -59,41 +59,6 @@ public class List<T> {
 		}
 	}
 
-	public Node<T> get(int indice){ //recibe el indice para extraer el elemento
-
-		Node<T> puntero = root;
-		
-		if (root == null || indice < 0 || indice > contador - 1)
-			puntero = null;
-		
-		else{
-			for (int i = 0; i < indice; i++)
-				puntero = puntero.getNextNode();
-		}
-		return puntero;
-	}
-
-	public void remove(int indice){
-
-		if (root == null || indice < 0 || indice > contador	- 1)
-			System.out.println("La lista esta vacia o no existe el indice");
-		
-		else{
-
-			Node<T> puntero = root;
-
-			fot (int i = 0; i < indice - 1; i++)
-				puntero = puntero.getNextNode();
-
-			Node<T> auxiliar = puntero.getNextNode().getNextNode();
-			puntero.getNextNode().setNextNode(null);
-
-			puntero.setNextNode(auxiliar);
-
-			contador--;
-		}
-	}
-	
 	public List<T> subList(int fromIndex, int toIndex){
 		List<T> subList = new List<T>();
 		Node<T> aux = this.root;
