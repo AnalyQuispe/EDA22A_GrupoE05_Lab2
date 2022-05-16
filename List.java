@@ -3,7 +3,6 @@ package Lab_02;
 public class List<T> {
 	
 	private Node<T> root;
-	private int contador=0;
 	
 	public boolean isEmpty() {
 		return this.root == null;
